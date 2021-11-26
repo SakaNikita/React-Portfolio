@@ -55,7 +55,7 @@ const Contact = () => {
                   style={{ cursor: "pointer" }}
                   className="clipboard"
                   onClick={() => {
-                    alert("Téléphone copié !");
+                    alert("Copied phone!");
                   }}
                 >
                   0471/65.54.28
@@ -66,12 +66,12 @@ const Contact = () => {
           <div className="email">
             <div className="content">
               <h4>email</h4>
-              <CopyToClipboard text="fsagency@gmail.com" className="hover">
+              <CopyToClipboard text="saka.pascale@gmail.com" className="hover">
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
                   onClick={() => {
-                    alert("Email copié !");
+                    alert("Copied mail!");
                   }}
                 >
                   saka.pascale@gmail.com
